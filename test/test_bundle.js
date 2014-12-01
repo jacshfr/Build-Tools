@@ -9,7 +9,7 @@ module.exports = function(array, randomNum) {
 'use strict';
 
 module.exports = function() {
-  return Math.floor(Math.random()*15);
+  return Math.floor(Math.random() * 15);
 };
 
 },{}],3:[function(require,module,exports){
@@ -17,9 +17,9 @@ module.exports = function() {
 
 module.exports = function() {
 
-return ['afar', 'agog', 'ahem', 'aids', 'akin',
-        'alas', 'alas', 'abed', 'abos', 'abys',
-        'peel', 'sets', 'taws', 'wily', 'zeal'];
+  return ['afar', 'agog', 'ahem', 'aids', 'akin',
+          'alas', 'alas', 'abed', 'abos', 'abys',
+          'peel', 'sets', 'taws', 'wily', 'zeal'];
 
 };
 

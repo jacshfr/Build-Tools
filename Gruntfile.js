@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     jshint: {
-      all: ['server.js', 'routes/*.js', 'public/**/*.js'],
+      all: ['server.js', 'routes/*.js', 'app/**/*.js'],
       options: {
         jshintrc: true,
         ignores: ['public/jquery-1.11.1.js']
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     },
 
     jscs: {
-      src: ['server.js', 'routes/*.js', 'public/**/*.js'],
+      src: ['server.js', 'routes/*.js', 'app/**/*.js'],
       options: {
         config: '.jscsrc'
       }
