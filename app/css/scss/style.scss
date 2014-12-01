@@ -1,2 +1,5 @@
-#userId
-  color: blue
+$color: blue;
+
+#userId {
+  color: $color;
+}
