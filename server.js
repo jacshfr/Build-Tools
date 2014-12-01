@@ -4,9 +4,13 @@ var express = require('express');
 var bodyparser = require('body-parser');
 var app = express();
 
-app.use(bodyparser.json());
+app.use(bodyparser.urlencoded({
+  extended: true
+}));
 
-require('./routes/userId')(app);
+app.use(express.static(__dirname + '/build'));
+
+require('./routes/route_userId')(app);
 
 app.set('port', process.env.PORT || 3000);
 app.listen(app.get('port'), function() {
