@@ -1,0 +1,31 @@
+{
+  "name": "Build-Tools",
+  "version": "1.0.0",
+  "description": "Build-Tools ===========",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "express": "^4.10.4"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-http": "^1.0.0"
+  },
+  "scripts": {
+    "test": "grunt --verbose",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacshfr/Build-Tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacshfr/Build-Tools/issues"
+  },
+  "homepage": "https://github.com/jacshfr/Build-Tools"
+}
